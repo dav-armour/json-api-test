@@ -1,43 +1,41 @@
 {
-  "order_line_item_details": [
-    {
-      "order_number": "VF123MULTILINES",
-      "ordered_date": "2013-11-20T00:00:00.000Z",
-      "status": "BOOKED",
-      "order_category": "ORDER",
-      "shipping_line_item_details": [
-        {
-          "order_line_status": "AWAITING_SHIPPING",
-          "delivery_line_status": "READY TO RELEASE",
-          "code": "IP5",
-          "description": "iPhone 5C 32GB magenta"
-        },
-        {
-          "order_line_status": "AWAITING_SHIPPING",
-          "delivery_line_status": "STAGED/PICK CONFIRMED",
-          "code": "VFSIM",
-          "description": "Microsim \"G23123\""
-        },
-        {
-          "order_line_status": "AWAITING_SHIPPING",
-          "delivery_line_status": "BACKORDERED",
-          "code": "VFSIM",
-          "description": "iPhone 5C 16GB Gold"
-        },
-        {
-          "order_line_status": "AWAITING_SHIPPING",
-          "delivery_line_status": "STAGED/PICK CONFIRMED",
-          "code": "VFSIM",
-          "description": "Microsim 'F2313'"
-        },
-        {
-          "order_line_status": "AWAITING_SHIPPING",
-          "delivery_line_status": "STAGED/PICK CONFIRMED",
-          "code": "VFSIM",
-          "item_quantity": 2,
-          "description": "Soft leather case & screen protector <h1> &1234;_!|\\/#"
-        }
-      ]
-    }
-  ]
+  "order": {
+    "order_number": "VF123MULTILINES",
+    "ordered_date": "2013-11-20T00:00:00.000Z",
+    "status": "BOOKED",
+    "order_category": "ORDER",
+    "shipping_line_item_details": [
+      {
+        "order_line_status": "AWAITING_SHIPPING",
+        "delivery_line_status": "READY TO RELEASE",
+        "code": "IP5",
+        "description": "iPhone 5C 32GB magenta"
+      },
+      {
+        "order_line_status": "AWAITING_SHIPPING",
+        "delivery_line_status": "STAGED/PICK CONFIRMED",
+        "code": "VFSIM",
+        "description": "Microsim \"G23123\""
+      },
+      {
+        "order_line_status": "AWAITING_SHIPPING",
+        "delivery_line_status": "BACKORDERED",
+        "code": "VFSIM",
+        "description": "iPhone 5C 16GB Gold"
+      },
+      {
+        "order_line_status": "AWAITING_SHIPPING",
+        "delivery_line_status": "STAGED/PICK CONFIRMED",
+        "code": "VFSIM",
+        "description": "Microsim 'F2313'"
+      },
+      {
+        "order_line_status": "AWAITING_SHIPPING",
+        "delivery_line_status": "STAGED/PICK CONFIRMED",
+        "code": "VFSIM",
+        "item_quantity": 2,
+        "description": "Soft leather case & screen protector <h1> &1234;_!|\\/#"
+      }
+    ]
+  }
 }
